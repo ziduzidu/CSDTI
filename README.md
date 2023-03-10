@@ -5,15 +5,15 @@
 The system mainly consists of embedding module, representation learning module and interaction module. In the representation learning module, the GNN-based global aggregator and the multi-scale 1D convolution-based protein encoder learn the deep representations of drugs and proteins, respectively, and the interaction module learns the substructure interaction process of drug-target pairs. Finally, the deep representations of the drug-target pairs and the interaction features between them are input to the output module to obtain the prediction results.
 
 ## The algorithm mainly uses the following packages:
-matplotlib==3.2.2
-pandas==1.2.4
-torch_geometric==1.7.0
-CairoSVG==2.5.2
-torch==1.7.1
-tqdm==4.51.0
-opencv_python==4.5.1.48
-networkx==2.5.1
-numpy==1.20.1
-ipython==7.24.1
-rdkit==2009.Q1-1
-scikit_learn==0.24.2
+    matplotlib==3.2.2
+    pandas==1.2.4
+    torch_geometric==1.7.0
+    CairoSVG==2.5.2
+    torch==1.7.1
+    tqdm==4.51.0
+    opencv_python==4.5.1.48
+    networkx==2.5.1
+    numpy==1.20.1
+    ipython==7.24.1
+    rdkit==2009.Q1-1
+    scikit_learn==0.24.2
