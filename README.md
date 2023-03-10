@@ -6,16 +6,14 @@ The system mainly consists of embedding module, representation learning module a
 
 ## Environment
     The algorithm mainly uses the following packages:
+    opencv_python==4.5.1.48
+    torch==1.7.1
     matplotlib==3.1.2
     pandas==1.2.4
     torch_geometric==1.7.0
     CairoSVG==2.3.2
-    torch==1.7.1
     tqdm==4.51.0
-    opencv_python==4.5.1.48
-    networkx==1.5.1
     numpy==1.20.1
     ipython==7.24.1
-    rdkit==2009.Q1-1
     scikit_learn==0.24.2
 ## Datasets
