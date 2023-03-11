@@ -23,5 +23,9 @@ The system mainly consists of embedding module, representation learning module a
 
 Running preprocessing.py convert the raw data into graph format.
 
-* Second, run train.py using `python train.py --dataset xxx`
+* Second, run train.py using `python train.py --dataset dataset`
 to train CSDTI.
+
+*To test a trained model please run test.py using
+
+`python test.py --dataset dataset --model_path model_path`
