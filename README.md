@@ -18,4 +18,4 @@ The system mainly consists of embedding module, representation learning module a
     scikit_learn==0.24.2
 ## Train/test CSDTI
 * First, run preprocessing.py using
-'python preprocessing.py'
+`python preprocessing.py`
