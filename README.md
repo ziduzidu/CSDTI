@@ -22,3 +22,5 @@ The system mainly consists of embedding module, representation learning module a
 `python preprocessing.py`
 
 Running preprocessing.py convert the raw data into graph format.
+
+* Second, run train.py using `python train.py --dataset xxx`
