@@ -169,15 +169,15 @@ class CSDTI(torch.nn.Module):
         self.fc = nn.Sequential(
             nn.Linear(256, 1024),
             nn.ReLU(),
-            nn.Dropout(0.2),
+            nn.Dropout(),
 
             nn.Linear(1024, 1024),
             nn.ReLU(),
-            nn.Dropout(0.2),
+            nn.Dropout(),
 
             nn.Linear(1024, 256),
             nn.ReLU(),
-            nn.Dropout(0.2),
+            nn.Dropout(),
             nn.Linear(256, 1)
         )
 
