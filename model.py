@@ -49,8 +49,7 @@ class NodeLevelBatchNorm(_BatchNorm):
 
 class Encoder(nn.Module):
     def __init__(self, protein_dim, hid_dim, n_layers, kernel_size, dropout):
-        #       (        128          128        3          9          0.2  )
-        # Encoder(512, 512, 3, 9, 0.2)
+ 
         super().__init__()
         assert kernel_size % 2 == 1, "Kernel size"
         self.input_dim = protein_dim
@@ -156,7 +155,7 @@ class CSDTI(torch.nn.Module):
 
         self.conv_xt_1 = nn.Conv1d(in_channels=1200, out_channels=64, kernel_size=1)
 
-        self.proteinencoder = Encoder(512, 512, 3, 9, 0.2)
+        self.proteinencoder = Encoder()
 
 
 
